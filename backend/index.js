@@ -40,7 +40,7 @@ const swaggerOptions = {
       version: "1.0.0",
     },
   },
-  apis: ["index.js"],
+  apis: ["./backend/index.js"],
 };
 
 const swaggerSpec = swaggerJsdoc(swaggerOptions);
